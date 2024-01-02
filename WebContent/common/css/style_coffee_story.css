@@ -1,0 +1,901 @@
+@charset "UTF-8";
+
+#container {
+	width: 100%;
+}
+
+/* 서브 타이틀 */
+.sub_tit_wrap {
+	width: 100%;
+	height: 98px;
+	background: #fff
+}
+
+
+.sub_tit_wrap div.sub_tit_inner {
+	width: 1100px;
+	height: 91px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.sub_tit_wrap h2 {
+	font: bold 36px Avenir, Arial, georgia;
+	color: #222;
+	padding-top: 30px;
+	position: relative;
+}
+
+ul.smap {
+	position: absolute;
+	right: 0;
+	top: 60px;
+}
+
+ul.smap li {
+	vertical-align: middle;
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	margin: 0 2.5px;
+}
+
+ul.smap a {
+	font-size: 12px;
+	color: #666;
+}
+
+/* content_tabmenu */
+
+div.coffee_story dl.content_tabmenu {
+    position: relative;
+    padding-top: 90px;
+}
+
+dt.box_bg {
+	display: none;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab_01 {
+	left: 50%;
+	margin-left: -550px;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab {
+	position: absolute;
+	top: 0;
+	z-index: 5;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab a {
+    display: block;
+    width: 275px;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    color: #000;
+    border: 1px solid #DCDCDC;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab.on a {
+    display: block;
+    width: 275px;
+    height: 50px;
+    line-height: 50px;
+    background: #006633;
+    color: #fff;
+    border: 0;
+    text-decoration:underline	/*밑줄 효과*/
+}
+
+div.coffee_story dl.content_tabmenu dt.tab_first a {
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+/* panel on */
+div.coffee_story dl.content_tabmenu dd.panel.on {	/*선택되어 있는 경우 하위 내용들 출력*/
+	display: block;
+}
+
+div.coffee_story dl.content_tabmenu dd.panel {		/*선택되어 있는 경우 하위 내용들 미출력*/
+	display: none;
+	z-index: 4;
+}
+
+/* coffeeCultivation_wrap, 재배 */
+div.coffeeCultivation_wrap {
+	background: #fff;
+	margin-bottom: 60px;
+}
+
+div.coffee_content {
+	width: 1100px;
+	margin: 0 auto 80px;
+}
+
+div.coffeeCultivation_wrap h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #222;
+	margin: 0 0 20px 0;
+}
+
+div.coffeeCultivation_wrap div.cultivation_wrap {
+	padding-bottom: 0;
+}
+
+div.cultivation_wrap {
+	padding-bottom: 45px;
+}
+
+p.cultivation_img {
+	float: left;
+	width: 550px;
+}
+
+/* coffeeCultivation_wrap > cultivation_text */
+
+div.coffeeCultivation_wrap dl.cultivation_text {
+	float: left;
+	width: 520px;
+	padding: 0 0 0 30px;
+}
+
+div.coffeeCultivation_wrap dl.cultivation_text dt {
+	font-size: 20px;
+	color: #006633;
+	padding-bottom: 20px;
+	line-height: 1.4;
+	font-style: italic;
+}
+
+div.coffeeCultivation_wrap dl.cultivation_text dd p.text1 {
+	font-size: 14px;
+	color: #444;
+	line-height: 1.6;
+	padding-bottom: 15px;
+}
+
+div.cultivation_wrap:after {
+	content: "";
+	display: block;
+	clear: both;	/*clear: float가 적용된 요소의 다음 요소의 흐름을 제어한다. both: 오른쪽, 왼쪽 취소*/
+}
+
+/* coffeeObtain_wrap, 조달 */
+div.coffeeObtain_wrap {
+	background: #f4f4f2;
+	padding-bottom: 60px;
+}
+
+div.coffeeObtain_wrap h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #222;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+div.coffeeObtain_wrap p.bigImg01 {
+	position: relative;
+}
+
+div.coffeeObtain_wrap p.bigImg01 span {
+	position: absolute;
+	left: 0px;
+	top: 228px;
+}
+
+div.coffeeObtain_wrap dl.obtainInfo_text {
+	margin-left: 408px;
+}
+
+div.coffeeObtain_wrap dl.obtainInfo_text dt {
+	font-size: 20px;
+	color: #006633;
+	padding-bottom: 20px;
+	line-height: 1.4;
+	font-style: italic;
+	padding-top: 30px;
+}
+
+div.coffeeObtain_wrap dl.obtainInfo_text dd p.text1 {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+	padding-bottom: 30px;
+	padding-left: 12px;
+}
+
+
+/* coffeeRoasting_wrap, 로스팅 */
+div.coffeeRoasting_wrap h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #222;
+	margin-bottom: 20px;
+	padding-top: 60px;
+}
+
+div.coffeeRoasting_info {
+	padding-bottom: 60px;
+}
+
+div.coffeeRoasting_info p.img {
+	float: left;
+	width: 550px;
+	height: 381px;
+}
+
+div.coffeeRoasting_info dl.text {
+	float: left;
+	width: 520px;
+	height: 381px;
+	padding: 0 0 0 30px;
+}
+
+div.coffeeRoasting_info dl.text dt {
+	font-size: 18px;
+	color: #006633;
+	line-height: 1.4;
+}
+
+div.coffeeRoasting_wrap h3.title {
+	font-size: 20px;
+	font-weight: normal;
+	color: #006633;
+	margin-bottom: 15px;
+	padding-top: 0;
+	font-style: italic;
+}
+
+div.coffeeRoasting_info dl.text dd p.text1 {
+	font-size: 14px;
+	color: #444;
+	line-height: 1.6;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+div.coffeeRoasting_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* coffeeBlending_wrap, 블렌딩 */
+div.coffeeBlending_wrap {
+	background: #f4f4f2;
+	padding-bottom: 70px;
+}
+
+div.blending_text {
+	float: left;
+	width: 550px;
+}
+
+div.blending_text h3.blending {
+	font-size: 18px;
+	font-weight: bold;
+	color: #222;
+	padding: 35px 0 15px 10px;
+}
+
+div.bleding_text dl.bledingInfo_text {
+	float: left;
+	width: 560px;
+}
+
+div.blending_text dl.blendingInfo_text dt {
+	font-size: 20px;
+	color: #006633;
+	padding-bottom: 10px;
+	line-height: 1.4;
+	font-style: italic;
+}
+
+div.blending_text dl.blendingInfo_text dd p.text1 {
+	font-size: 14px;
+	color: #444;
+	line-height: 1.6;
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+
+p.blending_img {
+	float: left;
+	width: 525px;
+	padding: 0 0 0 25px;
+}
+
+div.coffeeBlending_wrap:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* tab tab_02 on, 최상의 아라비카 원두  */
+div.coffee_story dl.content_tabmenu dt.tab_02 {
+	left: 50%;
+	margin-left: -275px;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab a {
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+div.higherAravica_wrap h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #222;
+	padding-bottom: 20px;
+}
+
+dl.higherAravica {
+	padding-bottom: 60px;
+}
+
+dl.higherAravica > dd {
+	position: relative;
+	height: 150px;
+	padding: 30px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #000;
+}
+
+dl.higherAravica > dd span.bigImg_bg {
+	position: absolute;
+	right: 140px;
+	top: -100px;
+}
+
+dl.higherAravica > dd dl.text {
+	float: left;
+	width: 450px;
+	height: 150px;
+	text-align: center;
+}
+
+dl.higherAravica > dd dl.text > dt {
+	font-size: 18px;
+	color: #e2d9c2;
+	margin-bottom: 15px;
+	margin-top: 14px;
+}
+
+dl.higherAravica > dd dl.text > dd {
+	font-size: 14px;
+	color: #fff;
+	line-height: 1.6;
+}
+
+/* aravica_info_01 */
+div.aravica_info_01 {
+	padding-bottom: 40px;
+}
+
+div.aravica_info_01 p.img {
+	float: left;
+	width: 550px;
+}
+
+div.aravica_info_01 dl.text {
+	float: left;
+	width: 520px;
+	height: 174px;
+	padding: 60px 0 0 30px;
+}
+
+div.aravica_info_01 dl.text dt {
+	font-size: 20px;
+	color: #006633;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+div.aravica_info_01 dl.text dd p {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+	padding-left: 10px;
+}
+
+div.aravica_info_01:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* aravica_info_02 */
+div.aravica_info_02 {
+	padding-bottom: 60px;
+}
+
+div.aravica_info_02 dl.text {
+	float: left;
+	width: 550px;
+	height: 184px;
+	padding: 50px 0 0 0px;
+}
+
+div.aravica_info_02 dl.text dt {
+	font-size: 20px;
+	color: #006633;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+div.aravica_info_02 dl.text dd p {
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+	padding-left: 10px;
+}
+
+div.aravica_info_02 p.img {
+	float: left;
+	width: 520px;
+	padding: 0 0 0 30px;
+}
+
+div.aravica_info_02:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* aravica_info_03 */
+div.aravica_info_03 {
+	padding-bottom: 5px;
+	background: #f4f4f2;
+}
+
+div.aravica_info_03 p.img {
+	float: left;
+	width: 550px;
+}
+
+div.aravica_info_03 dl.text {
+	float: left;
+	width: 520px;
+	height: 319px;
+	padding: 95px 0 0 30px;
+}
+
+div.aravica_info_03 dl.text dt {
+	font-size: 20px;
+	color: #006633;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+div.aravica_info_03 dl.text dd p {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+	padding-left: 10px;
+}
+
+div.aravica_info_03:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* aravica_info_04 */
+div.aravica_info_04 {
+	padding-bottom: 60px;
+	background: #f4f4f2;
+}
+
+div.aravica_info_04 dl.text {
+	float: left;
+	width: 550px;
+	height: 184px;
+	padding: 50px 0 0 0px;
+}
+
+div.aravica_info_04 dl.text dt {
+	font-size: 20px;
+	color: #006633;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+div.aravica_info_04 dl.text dd p {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+	padding-left: 10px;
+}
+
+div.aravica_info_04 p.img {
+	float: left;
+	width: 520px;
+	padding: 0 0 0 30px;
+}
+
+div.aravica_info_04:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* aravica_info_05 */
+div.aravica_info_05 {
+    padding: 60px 0 70px 0;
+}
+
+div.aravica_info_05 p.img {
+	float: left;
+	width: 520px;
+}
+
+div.aravica_info_05 dl.text {
+	float: left;
+	width: 520px;
+	height: 174px;
+	padding: 60px 0 0 30px;
+}
+
+div.aravica_info_05 dl.text dt {
+	font-size: 20px;
+	color: #006633;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+div.aravica_info_05 dl.text dd p {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+	padding-left: 10px;
+}
+
+div.aravica_info_05:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* tab tab_03, 스타벅스 로스트 스펙트럼 */
+div.coffee_story dl.content_tabmenu dt.tab_03 {
+	left: 50%;
+	margin-left: 0px;
+}
+
+div.cfs01_full_top h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #222;
+	padding-bottom: 20px;
+}
+
+div.cfs01_full_top p.big_img {
+	padding-bottom: 30px;
+}
+
+div.cfs01_full_top h3.title {
+	font-size: 20px;
+	font-weight: normal;
+	color: #006633;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+div.cfs01_full_top p.t1 {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+	padding: 0 0 30px 10px;
+}
+
+div.cfs01_bottom {
+    background: #f4f4f2;
+    width: 100%;
+    padding: 40px 0 70px 0;
+}
+
+div.cfs01_bottom ul.cfs01_bottom_list {
+    margin-left: -25px;
+}
+
+ul.cfs01_bottom_list li {
+	float: left;
+	width: 350px;
+	margin-left: 25px;
+}
+
+ul.cfs01_bottom_list li p.img {
+	position: relative;
+	width: 350px;
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+ul.cfs01_bottom_list li p.img span.dim_txt1 {
+    display: block;
+    width: 341px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #9b704d;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 29px;
+    padding-left: 9px;
+}
+
+ul.cfs01_bottom_list li p.img span.dim_txt1 span {
+	font-size: 14px;
+	color: #fff;
+	line-height: 35px;
+}
+
+.en {
+	font-family: arial, HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+}
+
+ul.cfs01_bottom_list li dl.cfs01_text dt h4 {
+	font-size: 14px;
+	color: #222;
+	margin-bottom: 15px;
+}
+
+ul.cfs01_bottom_list li dl.cfs01_text dd p {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+}
+
+ul.cfs01_bottom_list li p.img span.dim_txt2 {
+    display: block;
+    width: 341px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #924c2e;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 29px;
+    padding-left: 9px;
+}
+
+ul.cfs01_bottom_list li p.img span.dim_txt2 span {
+    font-size: 14px;
+    color: #fff;
+    line-height: 35px;
+}
+
+ul.cfs01_bottom_list li p.img span.dim_txt3 {
+    display: block;
+    width: 341px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #4f2c1d;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 29px;
+    padding-left: 9px;
+}
+
+ul.cfs01_bottom_list li p.img span.dim_txt3 span {
+    font-size: 14px;
+    color: #fff;
+    line-height: 35px;
+}
+
+div.cfs01_bottom ul.cfs01_bottom_list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* tab tab_04, 라이언벅스 디카페인 */
+div.coffee_story dl.content_tabmenu dt.tab_04 {
+	left: 50%;
+	margin-left: 274px;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab_last a:after {
+	content: '';
+	display: block;
+}
+
+div.cfs01_full_top h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #222;
+	padding-bottom: 20px;
+}
+
+div.cfs01_full_top p.big_img {
+	padding-bottom: 30px;
+}
+
+div.cfs01_full_top h3.title {
+	font-size: 20px;
+	font-weight: normal;
+	color: #006633;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+div.cfs01_full_top h4.title2 {
+	margin-top: 12px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #658000;
+	font-style: italic;
+	font-weight: normal;
+}
+
+div.cfs01_full_top p.t2 {
+	font-size: 14px;
+	color: #444;
+	line-height: 24px;
+	padding: 0 0 25px 10px;
+}
+
+/* decafeStory */
+.decafeStory {
+	margin-top: 25px;
+}
+
+.decafeStory .top .imgBox {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+.decafeStory .top .imgBox img {
+	width: 100%;
+}
+
+.decafeStory .top dl {
+	float: left;
+	width: 50%;
+	padding: 35px 0 40px 30px;
+	box-sizing: border-box;
+}
+
+.decafeStory .top dl dt {
+	font-size: 20px;
+	color: #658000;
+	font-style: italic;
+	font-weight: noraml;
+}
+
+.decafeStory .top dl dd {
+	line-height: 24px;
+	margin-top: 30px;
+	color: #444;
+	font-size: 14px;
+}
+
+sub {
+	font-size: 10px;
+}
+
+.decafeStory .top:after, .decafeStory .bottom dl:after, .decafeStory .bottom .co2 ul:after,
+.decafeStory .bottom .co2 ul li p:after {
+	content: '';
+	display: block;
+	clear: both;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+/* bottom */
+.decafeStory .bottom {
+	margin-top: 98px;
+}
+
+.decafeStory .bottom h5 {
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #222;
+}
+
+.decafeStory .bottom > p {
+	line-height: 24px;
+	color: #444;
+	font-size: 14px;
+}
+
+sub {
+	font-size: 10px;
+}
+
+.decafeStory .bottom .co2 {
+	margin-top: 40px;
+}
+
+.decafeStory .bottom .co2 h6 {
+	line-height: 34px;
+	color: #658000;
+	font-size: 18px;
+}
+
+.decafeStory .bottom .co2 h6 img {
+	margin-left: 12px;
+	vertical-align: top;
+}
+
+.decafeStory .bottom .co2 ul li {
+	float: left;
+	width: 50%;
+}
+
+.decafeStory .bottom .co2 ul li .imgBox {
+	display: block;
+	text-align: center;
+}
+
+.decafeStory .bottom .co2 ul li:nth-child(odd) p {
+	padding-left: 45px;
+}
+
+.decafeStory .bottom .co2 ul li p {
+	line-height: 24px;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #444;
+}
+
+.decafeStory .bottom .co2 ul li p .num {
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 100%;
+    background: #9ac23b;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.decafeStory .bottom .co2 ul li p .summary {
+    float: left;
+    display: block;
+    margin-left: 8px;
+    text-align: left;
+}
+
+.decafeStory .top:after, .decafeStory .bottom dl:after, .decafeStory .bottom .co2 ul:after, .decafeStory .bottom .co2 ul li p:after {
+    content: '';
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.decafeStory .bottom .co2 ul li:nth-child(even) p {
+	padding-left: 60px;
+}
+
+.decafeStory .bottom .co2 ul li.how3, .decafeStory .bottom .co2 ul li.how4 {
+    margin-top: 50px;
+}
+

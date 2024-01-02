@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.unusual_contact_wrap {
+    height: 150px;
+    margin: 220px auto;
+    width: 431px;
+    text-align: center;
+}
+
+strong.unusual_contact_emphasis {
+    color: #222;
+    font-size: 26px;
+    width: 100%;
+}
+
+.t_006633 {
+    color: #006633;
+}
+
+.unusual_contact_wrap p {
+    color: #444;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+
+ul.unusual_contact_btns {
+    margin-top: 25px;
+}
+
+ul.unusual_contact_btns li {
+       display: inline-block;
+}
+
+ul.unusual_contact_btns li a {
+	background: #666;
+    width: 145px;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}

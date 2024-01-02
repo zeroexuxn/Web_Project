@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+.join_wrap{
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    max-width: 570px;
+    margin: 1% auto;
+    position: relative;
+}
+
+td{
+	border: 1px solid #ddd;
+    text-align: center;
+    margin: 1%;
+}
+
+.main_table{
+	width: 100%;
+}
+
+.text_justjoin{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.text_guide{
+	background: #fff;
+    border-bottom: 1px solid #ddd;
+    color: #777;
+    font-size: 18px;
+    text-align: center;
+    padding: 5%;
+}
+
+.logo_img{
+    margin: 5% auto;
+    padding: 17%;
+    background: url('/RYANBUCKS_v1.0/common/img/LOGO_RYAN_MAKE_COFFEE.png') 50% 100% no-repeat;
+}
+
+.label-group{
+	position: relative;
+	font-size: 0.95em;
+	margin: 5%;
+	text-align: center;
+}
+
+.input_box {
+	border-color: #ddd;
+    background: #fff;
+    width: 60%;
+    height: 5%;
+    padding: 1%;
+    margin: 3%;
+    vertical-align: middle;
+}
+
+.select_box{
+	background: #fff;
+	width: 10%;
+    height: 5%;
+    padding: 1%;
+    margin: 3%;
+}
+
+.first_table{
+	background-color: #006633;
+    color: white;
+}
+
+.second_table{
+	width: 80%;
+}
+
+/* 생년월일 */
+#birth {
+	width:28%;
+}
+
+.birth_radio_btn{
+	vertical-align: middle;
+}
+/* /생년월일 */
+/* 가입버튼 */
+
+.join_btn {
+    background: #006633;
+    border-radius: 3px;
+    text-align: center;
+    margin: 10px;
+    max-width: 570px;
+    width:40%;
+    color: #fff; /* 버튼 텍스트 색상 */
+    font-size: 20px; /* 버튼 텍스트 크기 */
+    line-height: 45px; /* 버튼 높이와 중앙 정렬을 위한 높이값 */
+}
+
+
+.type_green{
+	color: #006633;
+}
+/* /가입버튼 */
+
+/* 동의 */
+.table_agree{
+	display: inline-block;
+    vertical-align: middle;
+    margin: auto; /* 각 td 사이의 간격을 조절합니다. 필요에 따라 조절하세요. */
+    display: inline;
+}
+
+.text_agree{
+	font-size: 0.75em;
+	display: inline;
+}
+
+.agree-check{
+	font-size: 0.8em;
+}
+/* /동의 */
+
+/* 이메일 */
+#usernameEmail{
+	width: 25%;
+}
+
+#domainEmail{
+	width: 25%;
+}
+
+#selectDomainEmail{
+	width: 21%;
+    margin: 0;
+}
+/* /이메일 */
+
+/* 연락처 */
+#countryTel{
+	width: 12%;
+}
+
+#areaTel{
+	width: 10%;
+}
+
+#userTel{
+	width: 10%;
+}
+/* /연락처 */
+
+/* 주소 */
+#sample4_postcode{
+	width: 20%;
+    margin-left: -17%;
+}
+
+#sample4_btn{
+	background: #006633; /* 버튼 텍스트 색상 */
+	color: #fff;
+	border-color: gray;
+	width: 20%
+}
+
+#sample4_roadAddress{
+	width: 69.5%;
+	margin-top: 0;
+}
+
+#sample4_detailAddress{
+	width: 30%;
+	margin-top: 0;
+}
+
+#sample4_extraAddress{
+	width: 30%;
+	margin-top: 0;
+}
+/* /주소 */
+
+/* 비밀번호 확인*/
+
+.input_box:focus + #check_td {
+    display: inline-block; /* 입력칸이 포커스를 받으면 나타납니다. */
+}
+
+/* /비밀번호 확인*/

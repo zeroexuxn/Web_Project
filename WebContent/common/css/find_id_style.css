@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.find_id_wrap{
+	text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    max-width: 570px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.find_id_form{
+    max-width: 570px;
+}
+
+td{
+	border: 1px solid #ddd;
+    text-align: center;
+    margin: 1%;
+}
+
+.label-group{
+	position: relative;
+	font-size: 0.95em;
+	margin: 5%;
+	text-align: center;
+}
+
+.input_box {
+	border-color: #ddd;
+    background: #fff;
+    width: 60%;
+    height: 5%;
+    padding: 1%;
+    margin: 3%;
+    vertical-align: middle;
+}
+
+.logo_img{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 20px 0;
+    background: url('/RYANBUCKS_v1.0/common/img/LOGO_RYAN_MAKE_COFFEE.png') 50% 100% no-repeat;
+    width: 205px;
+    height: 182px;
+}
+
+.text_justfindid{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.text_guide{
+	background: #fff;
+    border-bottom: 1px solid #ddd;
+    color: #777;
+    font-size: 18px;
+    text-align: center;
+    padding: 5%;
+}
+
+.first_table{
+	background-color: #006633;
+    color: white;
+    width: 40%;
+}
+
+/* 연락처 */
+#countryTel{
+	width: 16%;
+}
+
+#areaTel{
+	width: 10%;
+}
+
+#userTel{
+	width: 10%;
+}
+/* /연락처 */
+
+#find_id_btn{
+	background: #006633;
+    border-radius: 3px;
+    text-align: center;
+    margin: 10px;
+    max-width: 570px;
+    width:40%;
+    color: #fff; /* 버튼 텍스트 색상 */
+    font-size: 20px; /* 버튼 텍스트 크기 */
+    line-height: 45px; /* 버튼 높이와 중앙 정렬을 위한 높이값 */
+}

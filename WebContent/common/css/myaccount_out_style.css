@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+.myaccount_out_form{
+    max-width: 570px;
+}
+
+.myaccount_out_wrap{
+	text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    max-width: 570px;
+    margin: 4.4% auto;
+    position: relative;
+}
+
+td{
+	border: 1px solid #ddd;
+}
+
+.text_justaccountout{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.logo_img{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 20px 0;
+    background: url('/RYANBUCKS_v1.0/common/img/LOGO_RYAN_MAKE_COFFEE.png') 50% 100% no-repeat;
+    width: 205px;
+    height: 182px;
+}
+
+/* 회원탈퇴 버튼 */
+.myaccount_out_agree_btn_table{
+	text-align: center;
+}
+
+#myaccount_out_agree_btn{
+	background: orange;
+    border-radius: 3px;
+    text-align: center;
+    margin: 10px;
+    max-width: 570px;
+    width:40%;
+    color: #fff; /* 버튼 텍스트 색상 */
+    font-size: 24px; /* 버튼 텍스트 크기 */
+    line-height: 45px; /* 버튼 높이와 중앙 정렬을 위한 높이값 */
+}
+/* /회원탈퇴 버튼 */
+
+/* 회원탈퇴 약관 */
+#out_terms {
+    white-space: pre-line; /* 줄바꿈 적용 */
+    width: 560px;
+    height: 300px;
+}
+
+#out_terms_text{
+	font-weight: bold;
+}
+
+#out_agree_text{
+	font-weight: bold;
+}
+/* /회원탈퇴 약관 */

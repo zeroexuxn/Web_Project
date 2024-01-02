@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+#container {
+	width: 100%;
+}
+
+.sub_tit_wrap {
+	width: 100%;
+	height: 98px;
+	background: #fff;
+}
+
+.sub_tit_wrap div.sub_tit_inner {
+	width: 1100px;
+	height: 91px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.sub_tit_wrap h2 {
+	font:bold 36px Avenir, Arial, georgia;
+	color: #222;
+	padding-top: 30px;
+	position: relative;
+}
+
+ul.smap {
+	position: absolute;
+	right: 0;
+	top: 60px;
+}
+
+ul.smap li {
+	vertical-align: middle;
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	margin: 0 2.5px;
+}
+
+ul.smap a {
+	font-size: 12px;
+	color: #666;
+}
+
+/* cf_espressoTop_wrap */
+article.cf_espressoBottom_inner, article.cf_espressoTop_inner {
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+dl.cf_espressoClasslcs_info {
+	padding: 30px 0 60px 0;
+}
+
+dl.cf_espressoClasslcs_info dt {
+	font-size: 20px;
+	color: #006633;
+	font-style: italic;
+	line-height: 1.6;
+	padding-bottom: 20px;
+}
+
+dl.cf_espressoClasslcs_info dd {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+	padding-left: 10px;
+}
+
+dl.cf_espressoClasslcs_info dd p.last {
+	margin-top: 30px;
+}
+
+/* cf_espressoBottom_wrap */
+.section.cf_espressoBottom_wrap {
+	background: #f4f4f2;
+	padding: 40px 0 80px 0;
+}
+
+ul.cf_espressoClasslcs_list {
+	margin-left: -24px;
+}
+
+ul.cf_espressoClasslcs_list li {
+	float: left;
+	margin-left: 24px;
+}
+
+ul.cf_espressoClasslcs_list li dl dt {
+	width: 350px;
+	height: 210px;
+	overflow: hidden;
+}
+
+ul.cf_espressoClasslcs_list li dl dt img:hover {
+	transform: scale(1.1, 1.1); 	/*transform의 scale로 요소를 확대 또는 축소할 수 있다. (1보다 큰 수는 확대, 1보다 작은 수는 축소)*/
+	transition-duration: 0.4s;		/*transition:서서히 변화시키는 속성, transition-duration: transition이 끝날 때까지 걸리는 시간*/
+}
+
+/*ul.cf_espressoClasslcs_list li dl dt img {
+	-webkit-transition: -webkit-transform 1s;
+}*/
+
+ul.cf_espressoClasslcs_list li dl dd {
+	height: 100px;
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}

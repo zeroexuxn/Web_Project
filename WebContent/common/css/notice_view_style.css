@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+.wn_cont {
+    left: 50%;
+    margin: 0 0 0 -550px;
+    position: relative;
+    width: 1100px;
+}
+
+section.notice_view_wrap {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+section.notice_view_wrap header {
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    padding: 20px 140px 20px 20px;
+    
+}
+
+section.notice_view_wrap header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section.notice_view_wrap header h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+}
+
+section.notice_view_wrap header h3 span.date {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666666;
+    padding-left: 5px;
+    vertical-align: bottom;
+}
+
+article.notice_view_info {
+    padding: 30px 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.notice_view_info {
+    position: relative;
+}
+
+article.notice_view_info div.notice_view_info_inner {
+    position: relative;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+div.btn_notice_wrap {
+    width: 1100px;
+    height: 45px;
+    position: relative;
+    margin-top: 20px;
+}
+
+section.notice_view_wrap p.btn_notice_list {
+    border-radius: 3px;
+    height: 45px;
+    width: 84px;
+    background: #666666;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+section.notice_view_wrap p.btn_notice_list a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+}
+
+table.pn_content_tb {
+    width: 1100px;
+    margin-bottom: 75px;
+}
+
+table.pn_content_tb th.fth {
+    border-top: 1px solid #333333;
+}
+
+table.pn_content_tb th {
+    padding: 15px 0 15px 20px;
+    font-size: 14px;
+    color: #222222;
+    background: #f4f4f2;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+table.pn_content_tb td.ftd {
+    border-top: 1px solid #333333;
+}
+
+table.pn_content_tb td {
+    padding: 15px 0 15px 20px;
+    font-size: 14px;
+    color: #666666;
+    border-bottom: 1px solid #dddddd;
+}
+
+table.pn_content_tb th.lth {
+    border-bottom: 1px solid #333333;
+}
+
+table.pn_content_tb td.ltd {
+    border-bottom: 1px solid #333333;
+}

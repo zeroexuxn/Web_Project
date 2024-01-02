@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+#container {
+	width: 100%;
+}
+
+/* sub_tit_wrap */
+.sub_tit_wrap {
+	width: 100%;
+	height: 98px;
+	background: #fff;
+}
+
+.sub_tit_wrap div.sub_tit_inner {
+	width: 1100px;
+	height: 91px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.sub_tit_wrap h2 {
+	font: bold 36px Avenir, Arial, georgia;
+	color: #222;
+	padding-top: 30px;
+	position: relative;
+}
+
+ul.smap {
+	position: absolute;
+	right: 0;
+	top: 60px;
+}
+
+ul.smap li {
+	vertical-align: middle;
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	margin: 0 2.5px;
+}
+
+ul.smap a {
+	font-size: 12px;
+	color: #666;
+}
+
+ul.smap img.arrow {
+	position: relative;
+	top: 2px;
+}
+
+.en {
+	font-family: arial, HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+}
+
+ul.smap a.this {
+	font-size: 12px;
+	color: #222;
+}
+
+/* coffee_hs_wrap, 커피 이야기 */
+section.coffee_hs_wrap {
+	height: 200px;
+}
+
+section.coffee_hs_wrap {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    background: url(../../non_co_img/coffee/coffee_story_bg.jpg) 20% 50% no-repeat;
+    background-size: cover;
+}
+
+div.coffee_wrap_inner {
+	width: 100%;
+}
+
+div.coffee_wrap_inner {
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+}
+
+p.coffee_hs_txt {
+	left: 60%;
+	top: 40px;
+	width: 252px;
+}
+
+p.coffee_hs_txt {
+	left: 697px;
+	position: absolute;
+	top: 116px;
+	width: 379px;
+}
+
+.w_pic {
+	display: bolck;
+}
+
+div.coffee_hs_btn {
+	border: 2px solid #fff;
+	border-radius: 3px;
+	height: 34px;
+	line-height: 34px;
+	position: absolute;
+	left: 697px;
+	top: 292px;
+	width: 121px;
+}
+
+div.coffee_hs_btn a {
+	color: #fff;
+	display: block;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+	-webkit-transition: background-color .7s, color .7s;
+	transition: background-color, .7s, color .7s;
+}
+
+/* coffee_espresso_wrap, 에스프레소 음료 */
+section.coffee_espresso_wrap {
+	height: 200px;
+}
+
+section.coffee_espresso_wrap {
+	width: 100%;
+	height: 430px;
+	position: relative;
+	background: url(../../non_co_img/coffee/coffee_espresso_bg.jpg) 20% 50% no-repeat;
+	background-size: cover;
+}
+
+div.coffee_wrap_inner {
+	width: 100%;
+}
+
+div.coffee_wrap_inner {
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+}
+
+p.coffe_espresso_txt {
+	left: 60%;
+	top: 40px;
+	width: 252px;
+}
+
+p.coffee_espresso_txt {
+	left: 697px;
+	position: absolute;
+	top: 116px;
+	width: 379px;
+}
+
+w.pic {
+	display: block;
+}
+
+div.coffee_espresso_btn {
+    left: 58%;
+    top: 206px;
+}
+
+div.coffee_espresso_btn {
+	border: 2px solid #fff;
+	border-radius: 3px;
+	height: 34px;
+	line-height: 34px;
+	position: absolute;
+	left: 697px;
+	top : 292px;
+	width: 121px;
+}
+
+div.coffee_espresso_btn a {
+	color: #fff;
+	display: block;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+	-webkit-transition: background-color .7s, color .7s;
+	transition: background-color .7s, color .7s;
+}

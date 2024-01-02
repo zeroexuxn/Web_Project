@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+.wn_cont {
+    left: 50%;
+    margin: 0 0 0 -550px;
+    position: relative;
+    width: 1100px;
+}
+
+section.campaign_wrap {
+    position: relative;
+}
+
+section.campaign_wrap div.box_bg {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    height: 71px;
+    width: 1098px;
+    border-radius: 3px;
+}
+
+section.campaign_wrap h3.campaign_progress {
+    left: 30px;
+}
+
+section.campaign_wrap h3 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    border-radius: 3px;
+}
+
+/* 선택 안된 이벤트 버튼 */
+section.campaign_wrap h3 a {
+    background: #f4f4f2;
+    color: #222222;
+    border-radius: 3px;
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 500px;
+}
+
+/* 선택된 이벤트 버튼*/
+section.campaign_wrap h3 a.on {
+    background: #006633;
+    color: #ffffff;
+    border-radius: 3px;
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 500px;
+}
+
+/* 이벤트 목록 */
+section.campaign_wrap article {
+    padding-top: 40px;
+    display: none;
+}
+
+section.campaign_wrap article div.campaign_list {
+    position: relative;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd {
+    margin-bottom: 40px;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd > ul {
+    width: 1120px;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd > ul > li {
+    width: 260px;
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd > ul li dl {
+    width: 260px;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd > ul li dt {
+    width: 260px;
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd > ul li dt > a > img {
+    transition: transform 1s;
+    -webkit-transition: -webkit-transform 1s;
+    width: 100%;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd > ul li dd {
+    height: 50px;
+    padding: 19px 10px 0 10px;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd > ul li dd h4 {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 16px;
+    line-height: 19px;
+    font-weight: normal;
+}
+
+section.campaign_wrap article div.campaign_list > dl > dd > ul li dd p.date {
+    font-size: 12px;
+    color: #666666;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 8px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+section.campaign_wrap h3.campaign_end {
+    right: 30px;
+}

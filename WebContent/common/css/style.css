@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/* common */
+body {
+	display: block;
+}
+
+div {
+	display: block;
+}
+
+h2 {
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h4 {
+	display: block;
+	font-weight: bold;
+}
+
+img {
+	overflow-clip-margin: content-box;
+	overflow: clip;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+p {
+	display: block;
+}
+
+/* wrap */
+#wrap {
+	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+
+/* container */
+#container {
+	width: 100%;
+}
+
+
+/* 서브 타이틀 */
+.sub_tit_wrap {
+	width: 100%;
+	height: 98px;
+	background: #ffffff;
+}
+
+.sub_tit_wrap div.sub_tit_inner {
+	width: 1100px;
+	height: 91px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* 카테고리 */
+.sub_tit_wrap h2 {
+	font:bold 36px Avenir, Arial, georgia;
+	color: #222222;
+	padding-top: 30px;
+	position: relative;
+}
+
+/* 사이트맵(smap) */
+ul.smap {
+	position: absolute;
+	right: 0;
+	top: 60px;
+}
+
+ul.smap li {
+	vertical-align: middle;
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	margin: 0 2.5px;
+}
+
+.en {
+	font-family: arial, HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+}
+
+ul.smap img.arrow {
+	position: relative;
+	top: 2px;
+}
+
+ul.smap a {
+	font-size: 12px;
+	color: #666666;
+}
+
+ul.smap a.this {
+	font-size: 12px;
+	color: #222222;
+}
+
+
+
+
+
+.ms_sub_tit_wrap {
+    background: #231a11;
+    height: 178px;
+    position: relative;
+    width: 100%;
+}
+
+.ms_sub_tit_bg {
+    background: url(../../non_co_img/sub_title/ms_sub_ttl_bg.jpg);
+    height: 178px;
+    left: 50%;
+    margin-left: -1000px;
+    position: absolute;
+    top: 0;
+    width: 2000px;
+}
+
+.ms_sub_tit_wrap div.ms_sub_tit_inner {
+    height: 74px;
+    margin: 0 auto;
+    padding-top: 104px;
+    position: relative;
+    width: 1100px;
+}
+
+.ms_sub_tit_wrap h4 {
+    font: bold 36px Avenir, Arial, georgia;
+    color: #fefefe;
+    position: relative;
+    white-space: nowrap;
+}
+
+.ms_sub_tit_wrap ul.smap {
+    position: absolute;
+    right: 0;
+    top: 128px;
+}
+
+.ms_sub_tit_wrap ul.smap li {
+    vertical-align: middle;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 0 2.5px;
+}
+
+.ms_sub_tit_wrap ul.smap a {
+    font: normal 12px Avenir, Arial, georgia;
+    color: #fff;
+}
+
+.ms_sub_tit_wrap ul.smap img.arrow {
+    position: relative;
+    top: 2px;
+}

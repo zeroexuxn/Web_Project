@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.content {
+	width: 1100px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+
+.order_view_wrap {
+    width: 830px;
+    padding-bottom: 30px;
+    margin: 30px 0 0;
+	float: left;
+}
+
+.guide_msg {
+	font-size: 15px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+table.order_view_tb {
+    width: 830px;
+}
+
+table.order_view_tb th {
+    font-size: 14px;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+    padding: 17px 0;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+table.order_view_tb td {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding: 17px 0;
+    border-bottom: 1px solid #dddddd;
+    line-height: 1.8;
+}
+
+table.order_view_tb td.left {
+    text-align: left;
+    padding-left: 20px;
+}
+
+table.order_view_tb td a {
+    color: #666666;
+    font-size: 16px;
+}
+
+.order_view_tb_head {
+  	text-align: left; /* 텍스트를 왼쪽으로 정렬 */
+  	margin-bottom: 10px;
+  	font: bold 24px Avenir, Arial, georgia;
+  	color: #222222;
+}
+
+.total_payment{
+	background: #f4f4f2;
+	height: 50px;
+	margin: 10px 0 20px;
+}
+
+#order_info {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px; 
+}
+
+.order_info strong {
+    font-weight: bold;
+}
+
+.total_amount{
+	right: 20px;
+}
+
+#order_info {
+    display: flex; /* 주문상품수와 총 결제금액을 나란히 배치하기 위해 Flexbox 레이아웃 사용 */
+    align-items: center; /* 수직 가운데 정렬 */
+}
+
+#order_count {
+    margin-right: 20px; /* 주문상품수와 총 결제금액 사이에 여백을 조절 (원하는 여백 크기로 설정) */
+    font: 18px Avenir, Arial, georgia;
+}
+
+#total_amount{
+	position:relative;
+	right: 20px;
+	font: 18px Avenir, Arial, georgia;
+}
+
+table.info_tb {
+    width: 830px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+table.info_tb td {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding: 17px 0;
+    border-bottom: 1px solid #333333;
+    border-top: 1px solid #333333;
+    line-height: 1.8;
+    
+}
+
+table.info_tb td.weight {
+    font-size: 14px;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+    padding: 17px 0;
+    background-color: #dddddd;
+    
+}
+
+table.info_tb td a {
+    color: #666666;
+    font-size: 16px;
+}
+
+.navigation_wrap {
+	width: 220px;
+	float: right;
+}

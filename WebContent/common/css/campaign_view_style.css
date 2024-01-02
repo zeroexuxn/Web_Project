@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+.wn_cont {
+    left: 50%;
+    margin: 0 0 0 -550px;
+    position: relative;
+    width: 1100px;
+}
+
+section.campaign_view_wrap {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+section.campaign_view_wrap > header {
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 20px 140px 20px 20px;
+}
+
+section.campaign_view_wrap > header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section.campaign_view_wrap > header h3 {
+    position: relative;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+}
+
+section.campaign_view_wrap > header h3 span.date {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666666;
+    padding-left: 5px;
+    vertical-align: bottom;
+}
+
+article.campaign_view_info {
+    padding: 60px 50px 0 50px;
+}
+
+.campaign_view_info {
+    position: relative;
+}
+
+article.campaign_view_info div.campaign_view_info_inner {
+    position: relative;
+}
+
+.campaign_view_info_inner img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+div.btn_campaign_wrap {
+    width: 100%;
+    height: 45px;
+    position: relative;
+    padding-top: 20px;
+}
+
+p.btn_campaign_list {
+    border-radius: 3px;
+    height: 45px;
+    width: 84px;
+    background: #666666;
+    margin-top: 20px;
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+p.btn_campaign_list a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+}
+
+section.img_campaign_wrap {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+section.img_campaign_wrap div.campaign_list {
+    position: relative;
+}
+
+section.img_campaign_wrap div.campaign_list > dl > dt {
+    padding: 21px;
+    background: #f4f4f2;
+    margin-bottom: 21px;
+    border-radius: 3px;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+}
+
+section.img_campaign_wrap div.campaign_list dl dd .bnr_slider_wrap {
+    /* height: 360px; */
+    margin: 30px auto 70px;
+    position: relative;
+    width: 98%;
+}
+
+.bnr_slider_wrap {
+    height: 360px;
+    margin: 30px auto 70px;
+    position: relative;
+    width: 1193px;
+}
+

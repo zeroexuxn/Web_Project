@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+#container {
+	width: 100%;
+}
+
+.ms_sub_tit_wrap {
+    background: #231a11;
+    height: 178px;
+    position: relative;
+    width: 100%;
+}
+
+#sub_tit_bg {
+	height: 178px;
+    left: 50%;
+    margin-left: -1000px;
+    position: absolute;
+    width: 2000px;
+	background: url(../../non_co_img/sub_title/sub_tit_bg.jpg);
+}
+
+.ms_sub_tit_wrap div.sub_tit_inner {
+	height: 74px;
+    margin: 0 auto;
+    padding-top: 104px;
+    position: relative;
+    width: 1100px;
+}
+
+.ms_sub_tit_wrap h2 {
+	font: bold 36px Avenir, Arial, georgia;
+    color: #fefefe;
+    position: relative;
+    white-space: nowrap;
+}
+
+.ms_sub_tit_wrap ul.smap {
+	position: absolute;
+    right: 0;
+    top: 128px;
+}
+
+ul.smap li {
+	vertical-align: middle;
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	margin: 0 2.5px;
+	color: #fff;
+}
+
+ul.smap a {
+	font-size: 12px;
+	color: #fff;
+}
+
+
+/* writeable_reviews_list */
+
+h2.no_writeable_review {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 250px;
+    width: 800px;
+    text-align: center;
+}
+
+.ms_content_wrap {
+    margin: 30px auto 0;
+    width: 1100px;
+}
+
+.ms_cont {
+    float: left;
+    width: 830px;
+    margin-bottom: 90px;
+}
+
+.writeable_reviews_list {
+    border-radius: 3px;
+    display: table;
+    height: 100px;
+    padding: 0 30px 0 30px;
+    width: 770px;
+}
+
+.writeable_reviews_list {
+	margin-bottom: 30px;
+} 
+
+.writeable_reviews:first-child {
+	border-top: 0;
+}
+
+.writeable_reviews {
+	padding-bottom: 14px;
+}
+
+.writeable_reviews .product_content {
+	display: table;
+	width:  100%;
+	table-layout: fixed;
+	padding: 24px 0 10px;
+	border-bottom: 1px solid #dbdbdb;
+	float: left;
+}
+
+.product_img {
+	display: table-cell;
+	width: 110px;
+	vertical-align: top;
+}
+
+.pro_img {
+	border: 0;
+}
+
+.imgtest:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border: 1px solid rgba(0,0,0,.04);
+	content: "";
+}
+
+a {
+	text-decoration: none;
+}
+
+.purchase_name {
+	display: table-cell;
+	font-size: 14px;
+	color: #444;
+	padding: 7px 40px 0 16px;	
+	display: block;
+    width: 200px;
+}
+
+.purchase_option {
+	padding: 7px 40px 0 16px;
+	line-height: 30px;
+	vertical-align: top;
+}
+
+.purchase_product .purchase_option {
+	font-size: 13px;
+	line-height: 17px;
+	color: #959595;
+}
+
+.create_a_review {
+	display: table-cell;
+	vertical-align: middle;
+	width: 134px;
+	padding-right: 15px;
+}
+
+.create_a_review a.review {
+	display: block;
+	width: 100%;
+	background: #F4F4F1;
+	font-size: 12px;
+	line-height: 24px;
+	color: #000;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.create_a_review a.review.selected {
+	display: block;
+	background: #006633;
+	color: #fff;
+}
+
+/*reset.css*/
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+#container:after {
+	display: block;
+	content: "";
+	clear: both;
+}
